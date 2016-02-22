@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.com.smileplants.P1okra3"
+    android:background="@drawable/shape05">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="การปลูก"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	การเตรียมดิน: "
+                android:id="@+id/textView4"
+                android:background="#99FFCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ขุดไถดินด้วยผาล 39 ตากดินทิ้งไว้ประมาณ 15-20 วัน เพื่อกำจัดศัตรูพืช"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	หว่านปุ๋ยคอกเสริมธาตุอาหารในดินประมาณ 0.5-1 ตันต่อไร่ "
+                android:id="@+id/textView13"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ต่อน้ำเข้าแปลงโดยการต่อสปริงเกลอร์ หรือเลือกปล่อยน้ำเข้าร่องแลงก็ได้"
+                android:id="@+id/textView14"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	จัดระยะห่างระหว่างต้น 50 เซนติเมตร ระหว่างแถว 1 เมตร (พร้อมร่องน้ำประมาณ 50 เซนติเมตร)"
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	วิธีการปลูก: "
+                android:id="@+id/textView6"
+                android:background="#99FFCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ทำการขยายพันธุ์ด้วยวิธีการเพาะเมล็ด โดนนำเมล็ดพันธุ์แช่น้ำหมักชีวภาพนาน 15-20 นาทีเพื่อทำการกำจัดโรคที่ติดมากับเมล็ดพันธุ์ จากนั้นนำมาผึ่งให้แห้ง ในที่ร่มก่อนนำไปปลูกลงแปลง "
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ใช้เมล็ดพันธุ์ประมาณ 1 กิโลเมตร/ไร่ โดยเลือกเมล็ดพันธุ์ที่สมบูรณ์ และตรงตามสายพันธุ์ที่ต้องการ จากนั้นนำลงแปลงปลูกได้เลย  "
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ทำการปลูกโดยการใช้นิ้วจิ้มดินเป็นหลุมเล็กก่อนหยอดเมล็ดพันธุ์ประมาณ 3 เมล็ดต่อหลุม จากนั้นอีกประมาณ 45 วัน จึงพร้อมเก็บเกี่ยวได้"
+                android:id="@+id/textView17" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

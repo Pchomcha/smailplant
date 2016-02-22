@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.com.smileplants.A21digest2"
+    android:background="@drawable/shape03">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="2. การจำแนกผักตามส่วน
+      ที่ใช้บริโภค "
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="327dp"
+                android:layout_height="323dp"
+                android:text="การจำแนกผักตามส่วนที่ใช้บริโภค
+  ส่วนของผักที่ใช้บริโภค ได้แก่ ใบ ลำต้น ราก ดอก ผล และเมล็ดการผลิตผัก เพื่อต้องการ ส่วนของใบ และลำต้น จึงจำเป็นต้องเพิ่ม ปริมาณปุ๋ยที่ธาตุไนโตรเจน  ส่วนการผลิตผัก
+    เพื่อบริโภคส่วนของดอก ผล เมล็ด และระบบราก ที่แข็งแรงต้องเพิ่มปริมาณ ปุ๋ยที่ให้ธาตุฟอสฟอรัส ส่วนความแข็งแรง และรสชาติหวานของผล ได้รับจากปุ๋ยที่ให้ธาตุโปแตสเซียมเป็นส่วนใหญ่
+                              นอกจากนี้ การปลูกผัก ที่ต้องการส่วนต่างๆ ในการบริโภค ยังเกี่ยวกับ
+                              การเขตกรรม เช่น ผักที่บริโภคส่วนของระบบราก จะไม่เพาะกล้าเพื่อทำการย้ายปลูก
+                              ส่วนที่ใช้บริโภคของผักจำแนกได้ดังนี้
+                               ราก
+                                - รากแก้ว  ได้แก่  แครอท เทอร์นิพ ผักกาดหัว
+                                - รากแขนง  ได้แก่  มันเทศ
+                               ลำต้น
+                                - ลำต้นเหนือดิน  ได้แก่  กะหล่ำปม  หน่อไม้ฝรั่ง
+                                - ลำต้นใต้ดิน  ได้แก่  ขิง ข่า เผือก มันฝรั่ง มันมือเสือ หน่อไม้
+                               ใบ
+                                - ตระกูลหอม  ได้แก่ กระเทียม กระเทียมต้น หอมแดง หอมแบ่ง หอมหัวใหญ่
+                                - กลุ่มใบกว้าง  ได้แก่ กะหล่ำปลี คะน้า ปวยเหร็ง ผักกาดขาวปลี ผักกาดหอม
+                               ดอก
+                                - ตาดอกอ่อน  ได้แก่  กะหล่ำดอก บรอคคอลี
+                                - ดอกแก  ได้แก่ แค โสน
+                               ผล
+                                - ผลอ่อน  ได้แก่ กระเจี๊ยบเขียว ข้าวโพดฝักอ่อน แตงกวา ถั่วฝักยาว ถั่วลันเตา บวบเหลี่ยม มะเขือ มะระ
+                                - ผลแก่  ได้แก่ ตระกูลแตง เช่น แตงเทศ แตงโม ฟักทอง ตระมะเขือ ได้แก่ พริก มะเขือเทศ"
+                android:id="@+id/textView9" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

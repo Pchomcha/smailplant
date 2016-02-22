@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.com.smileplants.A20pre"
+    android:background="@drawable/shape03">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="115dp"
+        android:layout_marginEnd="115dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:text="เตรียมความพร้อมก่อนปลูกพืช"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="การจำแนกประเภทของผัก"
+            android:id="@+id/button"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="การปลูกผักสวนครัว"
+            android:id="@+id/button2"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ลักษณะการเจริญเติบโตของผักวงศ์ต่างๆ"
+            android:id="@+id/button3"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ผักสวนครัวกับปัจจัยที่ควรคำนึง"
+            android:id="@+id/button4"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="น้ำหนักเมล็ดพันธุ์ผักต่อพื้นที่ปลูก"
+            android:id="@+id/button5"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เทคนิคการปลูกผักสวนครัวชนิดต่าง ๆ"
+            android:id="@+id/button6"
+            android:background="@drawable/shape02" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+

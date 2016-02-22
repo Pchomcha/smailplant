@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com.smileplants" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".A00main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".A10select"
+            android:label="@string/title_activity_a10select"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".A20pre" >
+        </activity>
+        <activity android:name=".A30game" >
+        </activity>
+        <activity android:name=".A12fruit" >
+        </activity>
+        <activity android:name=".A12flower" >
+        </activity>
+        <activity android:name=".A12leave" >
+        </activity>
+        <activity android:name=".A12root" >
+        </activity>
+        <activity android:name=".B10home" >
+        </activity>
+        <activity android:name=".B11product" >
+        </activity>
+        <activity android:name=".B12age" >
+        </activity>
+        <activity android:name=".B13season" >
+        </activity>
+        <activity android:name=".B14plant" >
+        </activity>
+        <activity android:name=".A13shot" >
+        </activity>
+        <activity android:name=".A13mid" >
+        </activity>
+        <activity android:name=".A13long" >
+        </activity>
+        <activity android:name=".A14summer" >
+        </activity>
+        <activity android:name=".A14winter" >
+        </activity>
+        <activity android:name=".A14rainy" >
+        </activity>
+        <activity android:name=".A14alway" >
+        </activity>
+        <activity android:name=".A15seed" >
+        </activity>
+        <activity android:name=".A15cuttings" >
+        </activity>
+        <activity android:name=".A15Budsplit" >
+        </activity>
+        <activity
+            android:name=".A21digest"
+            android:label="@string/title_activity_a21digest"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".P1okra"
+            android:label="@string/title_activity_p1okra"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".garlic"
+            android:label="@string/title_activity_garlic"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Cantonese"
+            android:label="@string/title_activity_cantonese"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".P2garlic"
+            android:label="@string/title_activity_p2garlic"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".P3cantonese"
+            android:label="@string/title_activity_p3cantonese"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".C00Search" >
+        </activity>
+    </application>
+
+</manifest>

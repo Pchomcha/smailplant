@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.com.smileplants.P1okra4"
+    android:background="@drawable/shape05">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="วิธีการดูแลรักษา "
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	การให้น้ำ: "
+                android:id="@+id/textView4"
+                android:background="#99FFCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ระบบน้ำแบบสปริงเกลอร์ ควรรดน้ำทุก 2 วันครั้ง นานครั้งละ 10-15 นาที"
+                android:id="@+id/textView5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	แบบปล่อยน้ำตามร่อง ควรทำอาทิตย์ละครั้ง "
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	การใส่ปุ๋ย : "
+                android:id="@+id/textView8"
+                android:background="#99FFCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ใส่ปุ๋ยหมักชีวภาพ หรือ ปุ๋ยคอก ก่อนเข้าสู่ช่วงการเก็บเกี่ยว ใส่ประมาณ 10-15 กิโลกรัม/ไร่  "
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ใช้ปุ๋ยสูตร 15-15-15 หรือ 16-16-16 ควรใช้ในช่วงแรกก่อนติดฝักและหลังจากตัดต้นเพื่อเร่งการแตกกิ่งแขนง "
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	อัตราการใส่ปุ๋ย 10-25 กก./ไร่/ครั้ง ตามความอุดมสมบูรณ์ของดิน "
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ใช้ปุ๋ยประมาณ 75-100 กก.ต่อไร่ต่อฤดูปลูก การใส่ปุ๋ยขึ้นกับความยาวนานของการเก็บผลผลิต "
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ควรเสริมความต้านทานโรคในระยะเก็บเกี่ยวฝักด้วยน้ำหมักชีวภาพ โดยการฉีดทางใบทุกๆ 7-10 วันครั้ง"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	การป้องกันและกำจัดศัตรูพืช : "
+                android:id="@+id/textView10"
+                android:background="#99FFCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	ศัตรูพืชที่มักพบ : แมลงหวี่ขาว, เพลี้ยไฟ, เพลี้ยจักจั่น "
+                android:id="@+id/textView11"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="•	วิธีการป้องกัน : ใช้น้ำส้มควันไม้ ฉีดพ้นทุก 7 วันครั้ง หรือ ในช่วงระบาด"
+                android:id="@+id/textView12" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

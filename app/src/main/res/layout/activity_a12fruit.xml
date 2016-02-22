@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.com.smileplants.A12fruit"
+    android:background="@drawable/shape04">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:text="ให้ผลเป็นอาหาร"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="กระเจียบเขียว"
+            android:id="@+id/Okra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="ข้าวโพดหวาน"
+            android:id="@+id/leaf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:text="แตงกวา"
+            android:id="@+id/flower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="ถัวฝักยาว"
+            android:id="@+id/flower1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:text="ถั่วพู"
+            android:id="@+id/root1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="บวบเหลี่ยม"
+            android:id="@+id/root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="พริกขี้หนู"
+            android:id="@+id/root2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="มะเขือเทศ"
+            android:id="@+id/root3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="มะเขือเปราะ"
+            android:id="@+id/root4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:text="มะระ"
+            android:id="@+id/root5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

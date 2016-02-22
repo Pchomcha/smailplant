@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Smile Plants</string>
+    <string name="title_activity_a10select">A10select</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Start">Welcome</string>
+
+    <string name="Product">ผลผลิต</string>
+
+    <string name="pr_fruit">ให้ผลเป็นอาหาร</string>
+
+    <string name="pr_leaf">ให้ใบและลำต้นเป็นอาหาร</string>
+
+    <string name="pr_flower">ให้ดอกเป็นอาหาร</string>
+
+    <string name="pr_root">ให้หัวหรือรากเป็นอาหาร</string>
+
+    <string name="Canton">กวางตุ้ง</string>
+
+
+    <string name="age">อายุ</string>
+
+    <string name="season">ฤดูกาล</string>
+
+    <string name="plant">วิธีการปลูก</string>
+
+    <string name="knowledge">เกร็ดความรู้</string>
+    <string name="title_activity_plant">plant</string>
+    <string name="title_activity_a11fruit">A11fruit</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_a21digest">A21digest</string>
+    <string name="title_activity_p1okra">P1okra</string>
+    <string name="title_activity_garlic">garlic</string>
+    <string name="title_activity_cantonese">Cantonese</string>
+    <string name="title_activity_p2garlic">P2garlic</string>
+    <string name="title_activity_p3cantonese">P3cantonese</string>
+
+</resources>

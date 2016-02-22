@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.com.smileplants.A14fseason"
+    android:background="@drawable/shape03">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:src="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="ฤดูกาล"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+        <Button
+            android:text="ฤดูร้อน"
+            android:id="@+id/summer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:text="ฤดูหนาว"
+            android:id="@+id/winter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+
+        <Button
+            android:text="ฤดูฝน"
+            android:id="@+id/rainy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:text="ตลอดปี"
+            android:id="@+id/alway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.com.smileplants.A15fplant"
+    android:background="@drawable/shape03">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:src="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="วิธีการปลูก"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+
+        <Button
+            android:text="ปลูกด้วยเมล็ด"
+            android:id="@+id/seed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+        <Button
+            android:text="การปักชำ"
+            android:id="@+id/cuttings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+
+        <Button
+            android:text="การแยกหน่อหรือหัว"
+            android:id="@+id/Budsplit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape02" />
+
+    </LinearLayout>
+
+</FrameLayout>
